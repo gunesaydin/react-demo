@@ -7,12 +7,12 @@ class Readme extends Component {
   render(){
 
     return(
-      <main class="readme-container">
-        <h1 class="readme-h1">React Frontend Demo</h1>
-        <h2 class="readme-h2"><a href="https://gunes-react-demo.herokuapp.com">Live Demo</a></h2>
+      <main className="readme-container">
+        <h1 className="readme-h1">React Frontend Demo</h1>
+        <h2 className="readme-h2"><a href="https://gunes-react-demo.herokuapp.com">Live Demo</a></h2>
         
-        <h2 class="readme-h2">A quick walkthrough</h2>
-        <p>
+        <h2 className="readme-h2">A quick walkthrough</h2>
+        <p className="readme-p">
             I prepared two versions of this demo app. One is with Angular 7 and this one 
             is with React.
           <br />
@@ -21,7 +21,7 @@ class Readme extends Component {
             prepare two versions: one with Angular as a challenge for myself and another with 
             React as a fallback.
         </p>
-        <h1 class="readme-h1">Installation</h1>
+        <h1 className="readme-h1">Installation</h1>
         <p>
         Unless you have Create-React-App installed already, please 
         do so for viewing the development build.
